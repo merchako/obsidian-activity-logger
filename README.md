@@ -19,15 +19,15 @@ Log your activities like creating notes, modifying notes, deleting notes and so 
 
 ### Settings
 
-**Start Line**: A special make or sentence after which logs will be insert. Do **NOT** left it empty.
+**Start Line**: A special mark or sentence after which logs will be insert. Do **NOT** leave it empty.
 
-**End Line**: A special mark or sentence before which logs will be insert. Do **NOT** left it empty.
+**End Line**: A special mark or sentence before which logs will be insert. Do **NOT** leave it empty.
 
-If there are existing `Start Line` & `End Line` in current notes. the plugin will insert logs between them, or it will insert `Start Line`, logs and `End Line` after the cursor. 
+If there are existing `Start Line` & `End Line` in current notes, the plugin will insert logs between them, or it will insert `Start Line`, logs and `End Line` after the cursor. 
 
 **Template**: A snippet with three special variables (`$createdFiles`, `$deletedFiles` & `$modifiedFiles`). 
 
-Any characters in the same line with these three variables and the variables themselves compose a Placeholder. When inserting logs, the variables will be replaced with file paths and additional characters will reserved. That's to say, `- $createdFiles` will get a unordered list of files which are created today. and `- [[$createdFiles]]` will get a similar list but all items are Obsidian internal links. 
+Any characters in the same line with these three variables and the variables themselves compose a Placeholder. When inserting logs, the variables will be replaced with file paths and additional characters will reserved. That's to say, `- $createdFiles` will get an unordered list of files which are created today, and `- [[$createdFiles]]` will get a similar list, but all items are Obsidian internal links. 
 
 ### Tricks
 
@@ -40,4 +40,4 @@ Any characters in the same line with these three variables and the variables the
 ## Daily Plans
 ……………………
 ```
-We can set `Start Line` as `## Daily Activities` and `End Line` as `## Daily Plans`. Then logs will be insert between these two headings, no ugly marks at all!.
+We can set `Start Line` as `## Daily Activities` and `End Line` as `## Daily Plans`. Then logs will be insert between these two headings, no ugly marks at all!
